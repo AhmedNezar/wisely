@@ -1,0 +1,87 @@
+@import "skeleton.sass"
+
+.con
+	width: 80%
+	margin: auto
+
+#head
+	width: 9.5%
+	display: inline-block
+	margin-left: -15px
+	margin-right: -15px
+	.headcon
+		height: 100%
+		display: flex
+		flex-direction: column
+		.btr
+			border-top-left-radius: 15px
+		.bbr
+			border-bottom-left-radius: 15px
+		div
+			padding: 0px
+			display: flex
+			align-items: center
+			justify-content: center
+			max-width: 100%
+			border-width: 1px 0px 1px 1px
+			border-style: solid
+			border-color: #cccccc
+		p
+			margin: 0px
+			transform: rotate(-90deg)
+			color: $mainColor
+			font-weight: 600
+			white-space: nowrap
+			font-size: 25px
+
+table
+	width: 92%!important
+	float: right
+	border: 1px solid grey
+	border-top-right-radius: 15px
+	border-bottom-right-radius: 15px
+	color: $mainColor
+	font-size: 18px
+	position: relative
+	td
+		width: 50%
+		text-align: center
+		border: 1px solid grey
+	.title
+		background-color: $mainColor
+		color: white!important
+	.tdivider
+		td
+			background-color: #cccccc
+			border: 0px!important
+	thead
+		position: absolute
+		transform: rotate(-90deg)
+		width: 148%
+		right: 28%
+		top: 48%
+		padding-bottom: 50px
+		border-bottom: 2px black!important
+		th
+			border-bottom: 0px!important
+
+.buttons
+	width: 100%
+	@include screen(big)
+		padding-left: 80px
+		padding-right: 40px
+
+.but
+	@extend %button
+	@include screen(small)
+		width: 150px
+	img
+		padding-right: 5px
+		padding-bottom: 5px
+
+.center
+	@include screen(small)
+		text-align: center
+
+footer
+	margin-top: 80px

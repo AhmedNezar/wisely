@@ -1,0 +1,44 @@
+@import "skeleton.sass"
+
+.title
+	@extend %bTitle
+
+.bmt
+	margin-top: 100px
+
+input
+	width: 340px!important
+	box-shadow: 0px 0px 0px 1px #afadad
+	&::-webkit-calendar-picker-indicator
+		opacity: 1
+		font-size: 22px
+		color: $mainColor
+
+.but
+	@extend %button
+	width: 150px
+	font-size: 14px
+	border-radius: 15px
+	font-weight: 600
+
+.sectitle
+	@extend %title
+	font-weight: 700
+
+.fCon
+	@include screen(big)
+		padding: 0px 250px
+	margin-bottom: 150px
+	div
+		margin-bottom: 40px
+	p
+		font-size: 14px
+		color: $mainColor
+		font-weight: 600
+		width: 90%
+		margin: 3px auto
+	a
+		text-decoration: underline
+		color: $mainColor
+		font-weight: 500
+	

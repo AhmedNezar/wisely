@@ -1,0 +1,172 @@
+@import "skeleton.sass"
+.titleCon 
+	margin-top: 65px
+
+.imageCaption
+	color: $mainColor
+	font-weight: 500
+	font-size: 18px
+
+.sec1b
+	@extend %button
+	@include screen(big)
+		float: right
+
+.sec1b2
+	@extend %button
+	@include screen(big)
+		float: left
+
+.circle
+	@extend %circle
+
+.arrow
+	@extend %arrow
+
+.cCon
+	@include screen(small)
+		text-align: center
+
+.client1
+	width: 130px
+
+.client2
+	width: 190px
+
+.client3
+	width: 190px
+	@include screen(big)
+		position: absolute
+		bottom: 0px
+
+.bmt
+	margin-top: 150px
+
+%qArrow
+	content: " "
+	height: 60px
+	width: 60px
+	position: absolute
+	top: 20%
+	border-style: solid
+	border-color: $mainColor
+	transform: rotate(45deg)
+
+.quoteCon
+	width: 80%
+	margin: auto
+	@include screen(big)
+		padding: 0px 95px
+	@include screen(small)
+		padding: 0px 15px
+	text-align: center
+	margin-bottom: 95px
+	&:before
+		@extend %qArrow
+		left: 10%
+		border-width: 0px 0px 2px 2px
+	&:after
+		@extend %qArrow
+		right: 10%		
+		border-width: 2px 2px 0px 0px
+
+
+.quote
+	display: inline-block
+	@include screen(big)
+		font-size: 34px
+	@include screen(small)
+		font-size: 16px
+	color: $mainColor
+	font-style: italic
+	&:before
+		content: " "
+		width: 55px
+		height: 50px
+		background-image: url(../images/lquote.png)
+		background-size: 47px 40px
+		display: inline-block
+		background-repeat: no-repeat
+	&:after
+		content: " "
+		width: 55px
+		height: 50px
+		background-image: url(../images/rquote.png)
+		background-size: 47px 40px
+		float: right
+		margin-top: 10px
+		background-repeat: no-repeat
+
+.qName
+	font-size: 16px
+	font-weight: 500
+	width: 120px
+	display: inline-block
+	color: $mainColor
+	font-style: italic
+
+.simg
+	display: block
+	margin-bottom: 20px
+
+.sbut
+	background-color: $mainColor
+	color: #ffffff
+	border: 0px
+	border-radius: 8px
+	padding: 1px 0px
+	font-size: 11px
+	display: block
+	width: 50%
+
+.sp
+	@include screen(small)
+		width: 100%
+		text-align: center
+		padding: 20px 20px 0px 20px
+	@include screen(big)
+		width: 60%
+	font-weight: 500
+	color: $mainColor
+
+.imgContainer
+	@include screen(big)
+		padding: 0px 90px
+	@include screen(small)
+		text-align: center
+		padding: 0px 20px
+
+.title
+	@extend %title
+	@include screen(small)
+		padding: 10px
+
+.bTitle
+	@extend %bTitle
+
+.stitle
+	@extend %stitle
+	font-weight: 500
+
+.xstitle
+	@extend %xstitle
+	@include screen(big)
+		width: 38%
+	@include screen(small)
+		width: 80%
+
+.modal-title
+	padding-top: 7px
+	padding-left: 10px
+	color: $mainColor
+
+.ssbut
+	@extend .sbut
+	display: inline-block
+	@include screen(big)
+		width: 30%
+	@include screen(small)
+		width: 50%
+
+.smt
+	margin-top: 70px

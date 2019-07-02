@@ -1,0 +1,173 @@
+@import "skeleton.sass"
+
+.bmt
+	margin-top: 90px
+
+.title
+	@extend %title
+	@include screen(big)
+		width: 55%
+	@include screen(small)
+		width: 90%
+
+.stitle
+	@extend %stitle
+	@include screen(big)
+		width: 47%
+	@include screen(small)
+		width: 80%
+
+.forms
+	position: relative
+	margin-bottom: 80px
+
+.line
+	@extend .divider
+	position: absolute
+	top: 25px
+
+.circ
+		height: 50px
+		width: 50px
+		display: inline-block
+		border-radius: 50%
+		font-size: 23px
+		padding-top: 6px
+		background-color: $mainColor
+		color: white
+		font-weight: 700
+		cursor: pointer
+		transition: transform 0.2s
+		&:hover
+			text-decoration: none
+			color: white
+			transform: scale(1.05)
+
+.active
+	background-color: rgb(185, 45, 45)
+
+.padd
+	width: 88%
+	margin-left: 6%
+
+.but
+	@extend %button
+	width: 90px
+	a
+		color: white
+		text-decoration: none
+
+#step-1
+	margin-top: 50px
+	input
+		@include screen(big)
+			width: 25%
+		@include screen(small)
+			width: 50%
+		margin: 25px auto
+
+#step-2
+	table
+		width: 80%
+		margin: 0px auto 30px auto
+		tbody
+			display: flex
+			@include screen(big)
+				flex-direction: column
+			@include screen(small)
+				flex-direction: row
+			tr
+				width: 100%
+				margin: 0px
+				color: $mainColor
+		.upperrow
+			td
+				border-left: 1px solid black
+				border-top: 1px solid black					
+			.last
+				@include screen(big)
+					border-right: 1px solid black
+				@include screen(small)
+					border-bottom: 1px solid black
+		.lowerrow
+			td
+				border-top: 1px solid black
+				border-left: 1px solid black
+				@include screen(big)					
+					border-bottom: 1px solid black
+				@include screen(small)					
+					border-right: 1px solid black
+				input
+					width: 100%
+					height: 100%
+					padding-left: 10px
+					border: 0px
+					text-align: center
+			.last
+				@include screen(big)
+					border-right: 1px solid black
+				@include screen(small)
+					border-bottom: 1px solid black
+	.tTitle
+		@include screen(small)
+			height: 60px
+		background-color: $mainColor
+		color: white
+
+	.total
+		margin: 0px
+		color: rgb(185, 45, 45)
+
+	.load
+		font-weight: 500
+		color: rgb(185, 45, 45)
+
+
+#step-3
+	table
+		width: 90%
+		margin: 0px auto 40px auto
+		tr
+			width: 100%
+			margin: 0px
+		.tTitle
+			background-color: $mainColor
+			color: white
+		.titlerow
+			td
+				border-left: 1px solid grey
+		.trow
+			margin-top: 5px
+			td
+				border-top: 1px solid black
+				border-bottom: 1px solid black
+				border-left: 1px solid black
+		.nobord
+			border-bottom: 0px!important
+			border-left: 0px!important
+		.nobord1
+			border-left: 0px!important
+			border-top: 0px!important
+		.nobord2
+			border-bottom: 0px!important
+			border-left: 0px!important
+			border-top: 0px!important
+		.bordbott
+			border-top: 0px!important
+			border-left: 0px!important
+		.last
+			border-right: 1px solid black
+			text-decoration: underline
+
+.bbut
+	@extend %button
+	@include screen(big)
+		margin-top: 100px
+	@include screen(small)
+		margin-top: 20px
+	width: 95%
+	height: 45px
+	font-weight: 600
+
+footer
+	margin-top: 30px

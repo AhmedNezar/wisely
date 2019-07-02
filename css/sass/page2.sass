@@ -1,0 +1,30 @@
+@import "skeleton.sass"
+
+.bmt
+	margin-top: 90px
+
+.title
+	@extend %title
+	@include screen(big)
+		width: 45%
+	@include screen(small)
+		width: 80%
+
+.stitle
+	@extend %stitle
+	@include screen(big)
+		width: 29%
+	@include screen(small)
+		width: 60%
+
+.butCon
+	@include screen(small)
+		text-align: center
+
+.but
+	@extend %button
+	@include screen(small)
+		margin-bottom: 10px
+
+footer
+	margin-top: 105px

@@ -1,0 +1,43 @@
+@import "skeleton.sass"
+
+.title
+	@extend %title
+	margin: 0px
+
+.stitle
+	@extend %stitle
+	@include screen(big)
+		width: 60%
+	@include screen(small)
+		width: 80%
+	margin: auto
+
+.smt
+	margin-top: 80px
+
+.bmt
+	margin-top: 120px
+
+.circle
+	@extend %circle
+
+.arrow
+	@extend %arrow
+
+.vaccon
+	padding: 0px 50px
+
+.vactitle
+	color: $mainColor
+	font-weight: 600
+
+.vactext
+	color: $mainColor
+
+.countries
+	@include screen(big)
+		padding: 0px 50px
+	p
+		color: $mainColor
+		margin-top: 10px
+		font-weight: 500

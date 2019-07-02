@@ -1,0 +1,97 @@
+@import "skeleton.sass"
+
+.bmt
+	margin-top: 100px
+
+.titleCon
+	@include screen(big)
+		padding: 40px 100px 0px 100px
+	@include screen(small)
+		margin-top: 40px
+		text-align: center
+		padding: 0px 30px
+
+.title
+	@extend %bTitle
+	font-weight: 700
+
+.stitle
+	@extend %title
+	line-height: 32px
+
+.comCon
+	@include screen(big)
+		padding-left: 70px
+	@include screen(small)
+		text-align: center
+
+.services
+	height: 200px
+	background-color: $mainColor
+	border-right: 3px solid white
+
+.nobord
+	border-right: 0px!important
+
+.fimg1
+	width: 100px
+	margin-top: 25px
+	margin-bottom: 5px
+
+
+.fimg2
+	width: 65px
+	margin-top: 25px
+
+.fimg3
+	width: 80px
+	margin-top: 30px
+	margin-bottom: 13px
+
+.imgCap
+	color: white
+	font-size: 22px
+
+.servicesdesc
+	padding: 25px 95px 20px 95px
+	p
+		color: $mainColor
+		font-weight: 600
+		font-size: 15px
+	button
+		background-color: $mainColor
+		color: #ffffff
+		border: 0px
+		border-radius: 8px
+		padding: 1px 0px
+		font-size: 11px
+		width: 55%
+		margin: auto
+
+.vision
+	div
+		height: 315px
+		background-color: #20355d
+		text-align: center
+		padding: 25px 100px
+		.sbtitle
+			color: white
+			font-weight: 600
+			margin-bottom: 0px
+			margin-top: 25px
+		.scaption
+			color: white
+			font-size: 15px
+			margin-top: 10px
+		.up
+			position: relative
+			bottom: 2px
+
+.person
+	img
+		margin-bottom: 8px
+	.percap
+		color: $mainColor
+
+footer
+	margin-top: 60px

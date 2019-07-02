@@ -1,0 +1,32 @@
+@import "skeleton.sass"
+
+form
+	margin-top: 70px
+
+input
+	@include screen(big)
+		width: 25%!important
+	@include screen(small)
+		width: 70%!important
+	margin: auto
+
+textarea
+	@include screen(big)
+		width: 25%!important
+	@include screen(small)
+		width: 70%!important
+	margin: auto
+	height: 150px!important
+	border-width: 4px 1px 4px 1px!important
+	border-color: #a7a7a7!important
+
+.but
+	@extend %button
+	@include screen(big)
+		width: 15%!important
+	@include screen(small)
+		width: 60%!important
+	font-weight: 600
+
+footer
+	margin-top: 50px
