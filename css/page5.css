@@ -1,0 +1,317 @@
+@media (min-width: 992px) {
+  nav {
+    padding: 10px 40px;
+  }
+}
+@media (max-width: 992px) {
+  nav {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+    width: 200px;
+  }
+}
+@media (max-width: 992px) {
+  .logo {
+    width: 120px;
+  }
+}
+
+.navMenu {
+  list-style: none;
+  position: absolute;
+  bottom: 0px;
+  padding: 0px;
+}
+.navMenu li {
+  float: left;
+}
+@media (min-width: 992px) {
+  .navMenu li {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .navMenu li {
+    font-size: 11px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+}
+.navMenu li a {
+  color: #1c315a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.navMenu li a:hover {
+  color: #1e438c;
+}
+
+.navBut {
+  background-color: #1c315a;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  padding: 3px 0px;
+}
+@media (min-width: 992px) {
+  .navBut {
+    width: 215px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 992px) {
+  .navBut {
+    width: 120px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navBut {
+    margin-right: 35px;
+    position: relative;
+    top: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .navBut {
+    margin-right: 3px;
+  }
+}
+
+.butLink {
+  color: white !important;
+}
+.butLink:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .navCon {
+    margin-right: 25px;
+    top: 50px;
+    position: relative;
+  }
+}
+@media (max-width: 992px) {
+  .navCon {
+    width: 15px;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navCenter {
+    text-align: center;
+  }
+}
+
+.divider {
+  height: 1px;
+  background-color: #1c315a;
+  width: 88%;
+  margin-left: 6%;
+}
+
+.title {
+  font-size: 31px;
+  color: #1c315a;
+  font-weight: 500;
+}
+
+.stitle {
+  font-size: 26px;
+  color: #1c315a;
+  font-weight: 400;
+}
+
+footer a {
+  color: black;
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    padding: 60px 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .logoCon {
+    text-align: center;
+    margin: 10px 0px;
+  }
+}
+
+.footMenu {
+  list-style: none;
+}
+.footMenu li {
+  color: #1c315a;
+  margin-bottom: 22px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.footF {
+  position: absolute;
+  bottom: 15px;
+  padding-left: 40px;
+}
+
+.footI {
+  position: absolute;
+  bottom: 15px;
+  padding-left: 90px;
+}
+
+.copy {
+  width: 100%;
+  height: 60px;
+  background-color: #1c315a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy p {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bmt {
+  margin-top: 100px;
+}
+
+@media (min-width: 992px) {
+  .titleCon {
+    padding: 40px 100px 0px 100px;
+  }
+}
+@media (max-width: 992px) {
+  .titleCon {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 30px;
+  }
+}
+
+.title {
+  font-weight: 700;
+}
+
+.stitle {
+  line-height: 32px;
+}
+
+@media (min-width: 992px) {
+  .comCon {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 992px) {
+  .comCon {
+    text-align: center;
+  }
+}
+
+.services {
+  height: 200px;
+  background-color: #1c315a;
+  border-right: 3px solid white;
+}
+
+.nobord {
+  border-right: 0px !important;
+}
+
+.fimg1 {
+  width: 100px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.fimg2 {
+  width: 65px;
+  margin-top: 25px;
+}
+
+.fimg3 {
+  width: 80px;
+  margin-top: 30px;
+  margin-bottom: 13px;
+}
+
+.imgCap {
+  color: white;
+  font-size: 22px;
+}
+
+.servicesdesc {
+  padding: 25px 95px 20px 95px;
+}
+.servicesdesc p {
+  color: #1c315a;
+  font-weight: 600;
+  font-size: 15px;
+}
+.servicesdesc button {
+  background-color: #1c315a;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  padding: 1px 0px;
+  font-size: 11px;
+  width: 55%;
+  margin: auto;
+}
+
+.vision div {
+  height: 315px;
+  background-color: #20355d;
+  text-align: center;
+  padding: 25px 100px;
+}
+.vision div .sbtitle {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-top: 25px;
+}
+.vision div .scaption {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.vision div .up {
+  position: relative;
+  bottom: 2px;
+}
+
+.person img {
+  margin-bottom: 8px;
+}
+.person .percap {
+  color: #1c315a;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=page5.css.map */

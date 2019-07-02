@@ -1,0 +1,444 @@
+@media (min-width: 992px) {
+  nav {
+    padding: 10px 40px;
+  }
+}
+@media (max-width: 992px) {
+  nav {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo {
+    width: 200px;
+  }
+}
+@media (max-width: 992px) {
+  .logo {
+    width: 120px;
+  }
+}
+
+.navMenu {
+  list-style: none;
+  position: absolute;
+  bottom: 0px;
+  padding: 0px;
+}
+.navMenu li {
+  float: left;
+}
+@media (min-width: 992px) {
+  .navMenu li {
+    font-size: 24px;
+    margin-right: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .navMenu li {
+    font-size: 11px;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+}
+.navMenu li a {
+  color: #1c315a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.navMenu li a:hover {
+  color: #1e438c;
+}
+
+.sec1b2, .sec1b, .navBut {
+  background-color: #1c315a;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  padding: 3px 0px;
+}
+@media (min-width: 992px) {
+  .sec1b2, .sec1b, .navBut {
+    width: 215px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 992px) {
+  .sec1b2, .sec1b, .navBut {
+    width: 120px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navBut {
+    margin-right: 35px;
+    position: relative;
+    top: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .navBut {
+    margin-right: 3px;
+  }
+}
+
+.butLink {
+  color: white !important;
+}
+.butLink:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .navCon {
+    margin-right: 25px;
+    top: 50px;
+    position: relative;
+  }
+}
+@media (max-width: 992px) {
+  .navCon {
+    width: 15px;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navCenter {
+    text-align: center;
+  }
+}
+
+.divider {
+  height: 1px;
+  background-color: #1c315a;
+  width: 88%;
+  margin-left: 6%;
+}
+
+.bTitle {
+  font-size: 31px;
+  color: #1c315a;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 26px;
+  color: #1c315a;
+  font-weight: 400;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #1c315a;
+  border-radius: 50%;
+  padding-top: 7px;
+}
+
+.arrow {
+  width: 22px;
+  height: 22px;
+  transform: rotate(45deg);
+  box-shadow: 1px 1px 0px #1c315a;
+  margin: auto;
+}
+
+.stitle {
+  font-size: 20px;
+  color: #1c315a;
+}
+
+.xstitle {
+  color: #1c315a;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer a {
+  color: black;
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    padding: 60px 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .logoCon {
+    text-align: center;
+    margin: 10px 0px;
+  }
+}
+
+.footMenu {
+  list-style: none;
+}
+.footMenu li {
+  color: #1c315a;
+  margin-bottom: 22px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.footF {
+  position: absolute;
+  bottom: 15px;
+  padding-left: 40px;
+}
+
+.footI {
+  position: absolute;
+  bottom: 15px;
+  padding-left: 90px;
+}
+
+.copy {
+  width: 100%;
+  height: 60px;
+  background-color: #1c315a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy p {
+  color: white;
+  font-size: 20px;
+  margin: 0px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.titleCon {
+  margin-top: 65px;
+}
+
+.imageCaption {
+  color: #1c315a;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .sec1b {
+    float: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .sec1b2 {
+    float: left;
+  }
+}
+
+@media (max-width: 992px) {
+  .cCon {
+    text-align: center;
+  }
+}
+
+.client1 {
+  width: 130px;
+}
+
+.client2 {
+  width: 190px;
+}
+
+.client3 {
+  width: 190px;
+}
+@media (min-width: 992px) {
+  .client3 {
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+.bmt {
+  margin-top: 150px;
+}
+
+.quoteCon:after, .quoteCon:before {
+  content: " ";
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 20%;
+  border-style: solid;
+  border-color: #1c315a;
+  transform: rotate(45deg);
+}
+
+.quoteCon {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 95px;
+}
+@media (min-width: 992px) {
+  .quoteCon {
+    padding: 0px 95px;
+  }
+}
+@media (max-width: 992px) {
+  .quoteCon {
+    padding: 0px 15px;
+  }
+}
+.quoteCon:before {
+  left: 10%;
+  border-width: 0px 0px 2px 2px;
+}
+.quoteCon:after {
+  right: 10%;
+  border-width: 2px 2px 0px 0px;
+}
+
+.quote {
+  display: inline-block;
+  color: #1c315a;
+  font-style: italic;
+}
+@media (min-width: 992px) {
+  .quote {
+    font-size: 34px;
+  }
+}
+@media (max-width: 992px) {
+  .quote {
+    font-size: 16px;
+  }
+}
+.quote:before {
+  content: " ";
+  width: 55px;
+  height: 50px;
+  background-image: url(../images/lquote.png);
+  background-size: 47px 40px;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+.quote:after {
+  content: " ";
+  width: 55px;
+  height: 50px;
+  background-image: url(../images/rquote.png);
+  background-size: 47px 40px;
+  float: right;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+}
+
+.qName {
+  font-size: 16px;
+  font-weight: 500;
+  width: 120px;
+  display: inline-block;
+  color: #1c315a;
+  font-style: italic;
+}
+
+.simg {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sbut, .ssbut {
+  background-color: #1c315a;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  padding: 1px 0px;
+  font-size: 11px;
+  display: block;
+  width: 50%;
+}
+
+.sp {
+  font-weight: 500;
+  color: #1c315a;
+}
+@media (max-width: 992px) {
+  .sp {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+  }
+}
+@media (min-width: 992px) {
+  .sp {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .imgContainer {
+    padding: 0px 90px;
+  }
+}
+@media (max-width: 992px) {
+  .imgContainer {
+    text-align: center;
+    padding: 0px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .title {
+    padding: 10px;
+  }
+}
+
+.stitle {
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+  .xstitle {
+    width: 38%;
+  }
+}
+@media (max-width: 992px) {
+  .xstitle {
+    width: 80%;
+  }
+}
+
+.modal-title {
+  padding-top: 7px;
+  padding-left: 10px;
+  color: #1c315a;
+}
+
+.ssbut {
+  display: inline-block;
+}
+@media (min-width: 992px) {
+  .ssbut {
+    width: 30%;
+  }
+}
+@media (max-width: 992px) {
+  .ssbut {
+    width: 50%;
+  }
+}
+
+.smt {
+  margin-top: 70px;
+}
+
+/*# sourceMappingURL=index.css.map */
